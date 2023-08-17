@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -9,12 +16,6 @@
     flex-direction: row;
     justify-content: flex-end;
     padding: 0 40px;
-}
-
-#fondodeimagen { 
-    width: 100%;
-    height: 500px;
-    display: flex;
 }
 
 .background-image {
@@ -37,7 +38,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 50px;
-    color: #198754;
+    color: rgb(188, 151, 37);
 }
 
 .contenedor2 p {
@@ -45,13 +46,13 @@
 }
 
 .contenedor4{
-    background-color: #198754;
+    background-color: rgb(255, 207, 64);
     color: black;
     height: 200px;
 }
 
 .testimonio {
-    background-color: #198754;
+    background-color: rgb(255, 207, 64);
     height: 200px;
 }
 
@@ -67,7 +68,7 @@
 /*Pagina nuestros servicios */
 
 .headservicios{
-    background-color: #198754;
+    background-color: rgb(255, 207, 64);
 }
 
 .ss {
@@ -87,7 +88,7 @@
 }
 
 .contactos {
-    background-color: #198754;
+    background-color: rgb(255, 207, 64);
 }
 
 .grid-contacto {
@@ -116,7 +117,7 @@
 /* Pagina sobre nosotros */
 
 .sb {
-    background-color: #198754;
+    background-color: rgb(255, 207, 64);
     padding-top: 70px;
 }
 
@@ -150,7 +151,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(9, 67, 31, 0.595);
+    background-color:rgba(255, 207, 64, 0.595);
     transition: all 500ms ease-out;
     position: 0;
     visibility: hidden;
@@ -189,5 +190,18 @@
 }
 
 .valores {
-    background-color: #198754;
+    background-color: rgb(255, 207, 64);
 }
+
+/*Termino la pagina de nosotros */
+/*Pagina de Segmentos */
+
+.background-imagen {
+    height: 80vh;
+    background: url(../imagenes/segmentos/42474.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
