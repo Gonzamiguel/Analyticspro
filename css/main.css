@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navega{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 40px;
+}
+
+#fondodeimagen { 
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.background-image {
+    height: 80vh;
+    background: url(../imagenes/index/imagenIndex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.contenedor p{
+    margin: 0px 100px;
+    padding-left: 30px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: #198754;
+}
+
+.contenedor2 p {
+    font-size: 22px;
+}
+
+.contenedor4{
+    background-color: #198754;
+    color: black;
+    height: 200px;
+}
+
+.testimonio {
+    background-color: #198754;
+    height: 200px;
+}
+
+.final {
+    background-image: url(../imagenes/index/imagenIndex.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+/* Termino pagina index */
+
+/*Pagina nuestros servicios */
+
+.headservicios{
+    background-color: #198754;
+}
+
+.ss {
+    padding-top: 80px;
+}
+
+.imgss {
+    height: 70vh;
+}
+
+/* Termino pagina nuestros servicios */
+
+/*Pagina contacto */
+
+.contact {
+    padding-top:80px
+}
+
+.contactos {
+    background-color: #198754;
+}
+
+.grid-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    margin:50px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    .grid-contacto {
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }   
+
+    .mapa {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Termino pagina contacto */
+
+/* Pagina sobre nosotros */
+
+.sb {
+    background-color: #198754;
+    padding-top: 70px;
+}
+
+.contenedor {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenedor figure {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgb(0, 0, 0, 0.50);
+    cursor: pointer;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+
+.contenedor figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(9, 67, 31, 0.595);
+    transition: all 500ms ease-out;
+    position: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor figure:hover > img {
+    transform: scale(1.3);
+}
+
+.contenedor figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.contenedor figure .capa p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.2;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.valores {
+    background-color: #198754;
+}
