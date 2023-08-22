@@ -112,6 +112,10 @@
     }
 }
 
+.imgframe {
+    max-width: 100%;
+    object-fit: contain;
+}
 /* Termino pagina contacto */
 
 /* Pagina sobre nosotros */
@@ -205,3 +209,9 @@
     display: flex;
 }
 
+@media screen and (max-width: 480px){
+    
+    .contenedor p { 
+        margin: 25px 10px;
+    }
+}
