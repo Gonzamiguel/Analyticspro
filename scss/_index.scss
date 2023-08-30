@@ -1,0 +1,50 @@
+
+
+
+.background-image {
+    height: 80vh;
+    background: url(../imagenes/index/imagenIndex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.contenedorx p{
+    margin: 0px 100px;
+    padding-left: 30px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: $bgColorPrimario;
+    
+    .contenedor2 p {
+    font-size: 22px;
+    }
+
+}
+
+
+.contenedor4{
+    background-color: $bgColor;
+    color: black;
+    height: 200px;
+}
+
+.testimonio {
+    background-color: $bgColor;
+    height: 200px;
+}
+
+.final {
+    background-image: url(../imagenes/index/imagenIndex.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+

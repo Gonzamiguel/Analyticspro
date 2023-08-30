@@ -1,0 +1,55 @@
+@media screen and (max-width: 1080px) {
+    .grid-contacto {
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }   
+
+    .mapa {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    .contenedor p { 
+        margin: 25px 10px;
+    }
+
+    .valores1 {
+        gap:1rem
+    }
+
+    .contenedor2 {
+        padding-left: 10px;
+    }
+
+    .empresas {
+        padding-right: 55px;
+    }
+
+    .final {
+        padding: 20px;
+    }
+    
+    .img2 {
+        padding-left: 100px;
+        padding-top: 5px;
+    }
+
+    .ss_cartas {
+        gap: 1rem;
+    }
+
+    .imgss {
+        height: 50vh;
+    }
+
+    .seg_cartas {
+        gap:1.5rem;
+    }
+
+    .contact p {
+        padding-left: 30px;
+    }
+}
