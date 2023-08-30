@@ -1,4 +1,4 @@
 # Analyticspro - Gonzalo Miguel
 
 Repositorio: https://github.com/Gonzamiguel/Analyticspro.git
-Deployment: gonzamiguel.github.io/Analyticspro/
+Deployment: https://gonzamiguel.github.io/Analyticspro/
